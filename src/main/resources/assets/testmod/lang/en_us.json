@@ -1,0 +1,23 @@
+{
+  "item.testmod.zircon": "Zircon",
+  "item.testmod.raw_zircon": "Raw Zircon",
+  "item.testmod.eight_ball": "Eight Ball",
+  "item.testmod.beryl": "Beryl",
+  "item.testmod.carbuncle": "Carbuncle",
+  "item.testmod.carnelion": "Carnelion",
+  "item.testmod.chalcedony": "Chalcedony",
+  "item.testmod.chrysolite": "Chrysolite",
+  "item.testmod.jacinth": "Jacinth",
+  "item.testmod.ligurus": "Ligurus",
+  "item.testmod.onyx": "Onyx",
+  "item.testmod.sapphire": "Sapphire",
+  "item.testmod.topaz": "Topaz",
+
+  "block.testmod.zircon_block": "Zircon Block",
+  "block.testmod.zircon_ore": "Zircon Ore",
+  "block.testmod.deepslate_zircon_block": "Deepslate Zircon Ore",
+  "block.testmod.jumpy_block": "Jumpy Block",
+
+
+  "itemGroup.testtab": "Zircon Test Tab"
+}

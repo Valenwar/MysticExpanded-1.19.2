@@ -1,5 +1,7 @@
 package com.Valenwar.testmod;
 
+import com.Valenwar.testmod.block.ModBlocks;
+import com.Valenwar.testmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -22,6 +24,9 @@ public class testmod
     public testmod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
