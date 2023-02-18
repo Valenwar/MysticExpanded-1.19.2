@@ -2,6 +2,7 @@
   "item.testmod.zircon": "Zircon",
   "item.testmod.raw_zircon": "Raw Zircon",
   "item.testmod.eight_ball": "Eight Ball",
+  "item.testmod.soulresiduepotion": "Soul Residue Potion",
   "item.testmod.beryl": "Beryl",
   "item.testmod.carbuncle": "Carbuncle",
   "item.testmod.carnelion": "Carnelion",
@@ -12,11 +13,14 @@
   "item.testmod.onyx": "Onyx",
   "item.testmod.sapphire": "Sapphire",
   "item.testmod.topaz": "Topaz",
+  "item.testmod.testsword": "Test Sword",
 
   "block.testmod.zircon_block": "Zircon Block",
   "block.testmod.zircon_ore": "Zircon Ore",
   "block.testmod.deepslate_zircon_block": "Deepslate Zircon Ore",
   "block.testmod.jumpy_block": "Jumpy Block",
+  "block.testmod.test_block": "Test Block",
+  "block.testmod.gem_cluster": "Gem Cluster",
 
 
   "itemGroup.testtab": "Zircon Test Tab"

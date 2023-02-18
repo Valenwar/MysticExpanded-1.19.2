@@ -1,7 +1,9 @@
 package com.Valenwar.testmod.item;
 
 import com.Valenwar.testmod.item.custom.EightBallItem;
+import com.Valenwar.testmod.item.custom.SoulResidueItem;
 import com.Valenwar.testmod.testmod;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +23,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
     public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
             () -> new EightBallItem(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB).stacksTo(1)));
+    public static final RegistryObject<Item> SOULRESIDUEPOTION = ITEMS.register("soulresiduepotion",
+            () -> new SoulResidueItem(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB).stacksTo(1).food(Foods.SOULRESIDUEPOTION)));
 
     public static final RegistryObject<Item> CARBUNCLE = ITEMS.register("carbuncle",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
@@ -52,9 +56,19 @@ public class ModItems {
     public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
 
+    public static final RegistryObject<Item> TESTBLOCK = ITEMS.register("testblock",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
+
+    public static final RegistryObject<Item> TESTSWORD = ITEMS.register("testsword",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
+    }
+
+    public static class Foods{
+        public static final FoodProperties SOULRESIDUEPOTION = new FoodProperties.Builder().alwaysEat().build();
     }
 
 }

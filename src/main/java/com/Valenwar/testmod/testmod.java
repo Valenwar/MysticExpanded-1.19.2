@@ -3,6 +3,8 @@ package com.Valenwar.testmod;
 import com.Valenwar.testmod.block.ModBlocks;
 import com.Valenwar.testmod.item.ModItems;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
