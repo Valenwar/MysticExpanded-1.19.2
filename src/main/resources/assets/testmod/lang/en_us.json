@@ -20,7 +20,9 @@
   "block.testmod.deepslate_zircon_block": "Deepslate Zircon Ore",
   "block.testmod.jumpy_block": "Jumpy Block",
   "block.testmod.test_block": "Test Block",
-  "block.testmod.gem_cluster": "Gem Cluster",
+  "block.testmod.sapphire_gem_cluster": "Sapphire Gem Cluster",
+  "block.testmod.topaz_gem_cluster": "Topaz Gem Cluster",
+  "block.testmod.onyx_gem_cluster": "Onyx Gem Cluster",
 
 
   "itemGroup.testtab": "Zircon Test Tab"

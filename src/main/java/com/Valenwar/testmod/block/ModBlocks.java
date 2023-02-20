@@ -1,5 +1,6 @@
 package com.Valenwar.testmod.block;
 
+import com.Valenwar.testmod.block.custom.SapphireGemCluster;
 import com.Valenwar.testmod.block.custom.JumpyBlock;
 import com.Valenwar.testmod.item.ModCreativeModeTab;
 import com.Valenwar.testmod.item.ModItems;
@@ -10,8 +11,6 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.GlassBlock;
-import net.minecraft.world.level.block.StainedGlassBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -33,9 +32,17 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
 
-    public static final RegistryObject<Block> GEM_CLUSTER = registerBlock("gem_cluster",
-            () -> new GlassBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
+    public static final RegistryObject<Block> SAPPHIRE_GEM_CLUSTER = registerBlock("sapphire_gem_cluster",
+            () -> new SapphireGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> TOPAZ_GEM_CLUSTER = registerBlock("topaz_gem_cluster",
+            () -> new SapphireGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> ONYX_GEM_CLUSTER = registerBlock("onyx_gem_cluster",
+            () -> new SapphireGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
 
     public static final RegistryObject<Block> ZIRCON_ORE = registerBlock("zircon_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
