@@ -3,6 +3,16 @@
   "values": [
     "testmod:zircon_ore",
     "testmod:zircon_block",
-    "testmod:deepslate_zircon_ore"
+    "testmod:deepslate_zircon_ore",
+    "testmod:sapphire_gem_cluster",
+    "testmod:topaz_gem_cluster",
+    "testmod:onyx_gem_cluster",
+    "testmod:chrysolite_gem_cluster",
+    "testmod:jacinth_gem_cluster",
+    "testmod:beryl_gem_cluster",
+    "testmod:ligurus_gem_cluster",
+    "testmod:chalcedony_gem_cluster",
+    "testmod:carbuncle_gem_cluster",
+    "testmod:carnelion_gem_cluster"
   ]
 }

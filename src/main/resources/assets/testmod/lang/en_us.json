@@ -23,6 +23,13 @@
   "block.testmod.sapphire_gem_cluster": "Sapphire Gem Cluster",
   "block.testmod.topaz_gem_cluster": "Topaz Gem Cluster",
   "block.testmod.onyx_gem_cluster": "Onyx Gem Cluster",
+  "block.testmod.chrysolite_gem_cluster": "Chrysolite Gem Cluster",
+  "block.testmod.jacinth_gem_cluster": "Jacinth Gem Cluster",
+  "block.testmod.beryl_gem_cluster": "Beryl Gem Cluster",
+  "block.testmod.ligurus_gem_cluster": "Ligurus Gem Cluster",
+  "block.testmod.chalcedony_gem_cluster": "Chalcedony Gem Cluster",
+  "block.testmod.carbuncle_gem_cluster": "Carbuncle Gem Cluster",
+  "block.testmod.carnelion_gem_cluster": "Carnelion Gem Cluster",
 
 
   "itemGroup.testtab": "Zircon Test Tab"

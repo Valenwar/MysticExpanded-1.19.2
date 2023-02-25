@@ -45,7 +45,7 @@ public class ModItems {
     public static final RegistryObject<Item> JACINTH = ITEMS.register("jacinth",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
 
-    public static final RegistryObject<Item> LIGURUS = ITEMS.register("ligirus",
+    public static final RegistryObject<Item> LIGURUS = ITEMS.register("ligurus",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
 
     public static final RegistryObject<Item> ONYX = ITEMS.register("onyx",

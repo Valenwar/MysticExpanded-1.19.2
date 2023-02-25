@@ -1,7 +1,6 @@
 package com.Valenwar.testmod.block;
 
-import com.Valenwar.testmod.block.custom.SapphireGemCluster;
-import com.Valenwar.testmod.block.custom.JumpyBlock;
+import com.Valenwar.testmod.block.custom.*;
 import com.Valenwar.testmod.item.ModCreativeModeTab;
 import com.Valenwar.testmod.item.ModItems;
 import com.Valenwar.testmod.testmod;
@@ -36,12 +35,38 @@ public class ModBlocks {
             () -> new SapphireGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
                     .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
 
+    public static final RegistryObject<Block> JACINTH_GEM_CLUSTER = registerBlock("jacinth_gem_cluster",
+            () -> new JacinthGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> LIGURUS_GEM_CLUSTER = registerBlock("ligurus_gem_cluster",
+            () -> new LigurusGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> CARNELION_GEM_CLUSTER = registerBlock("carnelion_gem_cluster",
+            () -> new CarnelionGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> CARBUNCLE_GEM_CLUSTER = registerBlock("carbuncle_gem_cluster",
+            () -> new CarbuncleGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> CHALCEDONY_GEM_CLUSTER = registerBlock("chalcedony_gem_cluster",
+            () -> new ChalcedonyGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
+    public static final RegistryObject<Block> BERYL_GEM_CLUSTER = registerBlock("beryl_gem_cluster",
+            () -> new BerylGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
     public static final RegistryObject<Block> TOPAZ_GEM_CLUSTER = registerBlock("topaz_gem_cluster",
-            () -> new SapphireGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+            () -> new TopazGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+                    .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> CHRYSOLITE_GEM_CLUSTER = registerBlock("chrysolite_gem_cluster",
+            () -> new ChrysoliteGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
                     .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
 
     public static final RegistryObject<Block> ONYX_GEM_CLUSTER = registerBlock("onyx_gem_cluster",
-            () -> new SapphireGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
+            () -> new OnyxGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
                     .strength(5f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
 
     public static final RegistryObject<Block> ZIRCON_ORE = registerBlock("zircon_ore",

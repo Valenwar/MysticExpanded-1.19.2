@@ -1,0 +1,88 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "testmod:block/gemclustertextures/ligurus/gem_cluster_one",
+		"1": "testmod:block/gemclustertextures/ligurus/gem_cluster_two",
+		"2": "testmod:block/gemclustertextures/ligurus/gem_cluster_three",
+		"3": "testmod:block/gemclustertextures/ligurus/gem_cluster_four",
+		"4": "testmod:block/gemclustertextures/ligurus/gem_cluster_five",
+		"particle": "testmod:block/gemclustertextures/ligurus/gem_cluster_one"
+	},
+	"render_type": "translucent",
+	"elements": [
+		{
+			"name": "cubeone",
+			"from": [6, 0, 5],
+			"to": [10, 15, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 7.5], "texture": "#0"},
+				"east": {"uv": [2, 0, 4, 7.5], "texture": "#0"},
+				"south": {"uv": [4, 0, 6, 7.5], "texture": "#0"},
+				"west": {"uv": [6, 0, 8, 7.5], "texture": "#0"},
+				"up": {"uv": [2, 9.5, 0, 7.5], "texture": "#0"},
+				"down": {"uv": [4, 7.5, 2, 9.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cubetwo",
+			"from": [5, -5, 4.9],
+			"to": [9, 3, 9.1],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 8], "texture": "#1"},
+				"east": {"uv": [4, 0, 8, 8], "texture": "#1"},
+				"south": {"uv": [0, 8, 4, 16], "texture": "#1"},
+				"west": {"uv": [8, 0, 12, 8], "texture": "#1"},
+				"up": {"uv": [8, 12, 4, 8], "texture": "#1"},
+				"down": {"uv": [12, 8, 8, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cubethree",
+			"from": [5.9, 3, 5],
+			"to": [10.1, 13, 9],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 5], "texture": "#2"},
+				"east": {"uv": [2, 0, 4, 5], "texture": "#2"},
+				"south": {"uv": [4, 0, 6, 5], "texture": "#2"},
+				"west": {"uv": [0, 5, 2, 10], "texture": "#2"},
+				"up": {"uv": [4, 7, 2, 5], "texture": "#2"},
+				"down": {"uv": [6, 5, 4, 7], "texture": "#2"}
+			}
+		},
+		{
+			"name": "cubefour",
+			"from": [1, 8, 4.8],
+			"to": [5, 17, 9.2],
+			"rotation": {"angle": -45, "axis": "z", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4.5], "texture": "#3"},
+				"east": {"uv": [2, 0, 4, 4.5], "texture": "#3"},
+				"south": {"uv": [4, 0, 6, 4.5], "texture": "#3"},
+				"west": {"uv": [0, 4.5, 2, 9], "texture": "#3"},
+				"up": {"uv": [4, 6.5, 2, 4.5], "texture": "#3"},
+				"down": {"uv": [6, 4.5, 4, 6.5], "texture": "#3"}
+			}
+		},
+		{
+			"name": "cubefive",
+			"from": [6.1, -2, 5],
+			"to": [9.9, 10, 9],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 6], "texture": "#4"},
+				"east": {"uv": [2, 0, 4, 6], "texture": "#4"},
+				"south": {"uv": [4, 0, 6, 6], "texture": "#4"},
+				"west": {"uv": [0, 6, 2, 12], "texture": "#4"},
+				"up": {"uv": [8, 2, 6, 0], "texture": "#4"},
+				"down": {"uv": [4, 6, 2, 8], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 7.5, 3.5]
+		}
+	}
+}
