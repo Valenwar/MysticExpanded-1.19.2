@@ -1,6 +1,7 @@
 package com.Valenwar.testmod.item;
 
 import com.Valenwar.testmod.item.custom.EightBallItem;
+import com.Valenwar.testmod.item.custom.RuneBook;
 import com.Valenwar.testmod.item.custom.SoulResidueItem;
 import com.Valenwar.testmod.testmod;
 import net.minecraft.world.food.FoodProperties;
@@ -16,7 +17,8 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, testmod.MOD_ID);
-
+    public static final RegistryObject<Item> RUNEBOOK = ITEMS.register("rune_book",
+            () -> new RuneBook(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
     public static final RegistryObject<Item> ZIRCON = ITEMS.register("zircon",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
 

@@ -1,6 +1,5 @@
 package com.Valenwar.testmod.item.custom;
 
-
 import com.Valenwar.testmod.soulresidue.PlayerSRProvider;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;

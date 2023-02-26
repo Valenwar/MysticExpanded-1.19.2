@@ -29,7 +29,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
+                    .strength(6f).requiresCorrectToolForDrops().noOcclusion()), ModCreativeModeTab.TEST_TAB);
 
     public static final RegistryObject<Block> SAPPHIRE_GEM_CLUSTER = registerBlock("sapphire_gem_cluster",
             () -> new SapphireGemCluster(BlockBehaviour.Properties.of(Material.AMETHYST)
