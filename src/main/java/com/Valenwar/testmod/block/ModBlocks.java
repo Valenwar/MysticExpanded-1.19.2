@@ -3,6 +3,7 @@ package com.Valenwar.testmod.block;
 import com.Valenwar.testmod.block.custom.*;
 import com.Valenwar.testmod.item.ModCreativeModeTab;
 import com.Valenwar.testmod.item.ModItems;
+import com.Valenwar.testmod.item.custom.RuneBook;
 import com.Valenwar.testmod.testmod;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -26,6 +27,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> ZIRCON_BLOCK = registerBlock("zircon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
+
+    public static final RegistryObject<Block> TRASH_BLOCK = registerBlock("trash_block",
+            () -> new Trash(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
+
 
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
