@@ -3,6 +3,7 @@ package com.Valenwar.testmod;
 import com.Valenwar.testmod.block.ModBlocks;
 import com.Valenwar.testmod.item.ModItems;
 import com.Valenwar.testmod.networking.ModMessages;
+import com.Valenwar.testmod.screen.ModMenuTypes;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -30,6 +31,8 @@ public class testmod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+       ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
