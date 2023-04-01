@@ -1,8 +1,4 @@
 {
-  "item.testmod.zircon": "Zircon",
-  "item.testmod.raw_zircon": "Raw Zircon",
-  "item.testmod.eight_ball": "Eight Ball",
-  "item.testmod.soulresiduepotion": "Soul Residue Potion",
   "item.testmod.beryl": "Beryl",
   "item.testmod.carbuncle": "Carbuncle",
   "item.testmod.carnelion": "Carnelion",
@@ -13,13 +9,33 @@
   "item.testmod.onyx": "Onyx",
   "item.testmod.sapphire": "Sapphire",
   "item.testmod.topaz": "Topaz",
+
+  "item.testmod.rune_don": "Rune Page Don",
+  "item.testmod.rune_drux": "Rune Page Drux",
+  "item.testmod.rune_ger": "Rune Page Ger",
+  "item.testmod.rune_gon": "Rune Page Gon",
+  "item.testmod.rune_graff": "Rune Page Graff",
+  "item.testmod.rune_mals": "Rune Page Mals",
+  "item.testmod.rune_med": "Rune Page Med",
+  "item.testmod.rune_or": "Rune Page Or",
+  "item.testmod.rune_pa": "Rune Page Pa",
+  "item.testmod.rune_pal": "Rune Page Pal",
+  "item.testmod.rune_ur": "Rune Page Ur",
+  "item.testmod.rune_veh": "Rune Page Veh",
+
   "item.testmod.testsword": "Test Sword",
+  "item.testmod.soulresiduepotion": "Soul Residue Potion",
+  "item.testmod.eight_ball": "Eight Ball",
+  "item.testmod.zircon": "Zircon",
+  "item.testmod.raw_zircon": "Raw Zircon",
+
 
   "block.testmod.zircon_block": "Zircon Block",
   "block.testmod.zircon_ore": "Zircon Ore",
   "block.testmod.deepslate_zircon_block": "Deepslate Zircon Ore",
   "block.testmod.jumpy_block": "Jumpy Block",
   "block.testmod.test_block": "Test Block",
+
   "block.testmod.sapphire_gem_cluster": "Sapphire Gem Cluster",
   "block.testmod.topaz_gem_cluster": "Topaz Gem Cluster",
   "block.testmod.onyx_gem_cluster": "Onyx Gem Cluster",
@@ -30,6 +46,7 @@
   "block.testmod.chalcedony_gem_cluster": "Chalcedony Gem Cluster",
   "block.testmod.carbuncle_gem_cluster": "Carbuncle Gem Cluster",
   "block.testmod.carnelion_gem_cluster": "Carnelion Gem Cluster",
+
 
 
   "itemGroup.testtab": "Zircon Test Tab"

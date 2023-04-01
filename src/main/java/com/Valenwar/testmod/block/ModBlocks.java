@@ -1,9 +1,9 @@
 package com.Valenwar.testmod.block;
 
 import com.Valenwar.testmod.block.custom.*;
+import com.Valenwar.testmod.block.custom.clusters.*;
 import com.Valenwar.testmod.item.ModCreativeModeTab;
 import com.Valenwar.testmod.item.ModItems;
-import com.Valenwar.testmod.item.custom.RuneBook;
 import com.Valenwar.testmod.testmod;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;

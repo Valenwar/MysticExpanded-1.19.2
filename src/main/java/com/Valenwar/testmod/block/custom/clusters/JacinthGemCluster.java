@@ -1,14 +1,14 @@
-package com.Valenwar.testmod.block.custom;
+package com.Valenwar.testmod.block.custom.clusters;
 
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.EndRodBlock;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class CarnelionGemCluster extends EndRodBlock {
+public class JacinthGemCluster extends EndRodBlock {
 
 
-    public CarnelionGemCluster(Properties properties) {
+    public JacinthGemCluster(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.UP));
     }

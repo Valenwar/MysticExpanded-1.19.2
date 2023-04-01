@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "testmod:item/gemstones/carnelion"
+    "layer0": "testmod:item/runepages/rune_or"
   }
 }

@@ -1,4 +1,4 @@
-package com.Valenwar.testmod.block.custom;
+package com.Valenwar.testmod.block.custom.clusters;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
